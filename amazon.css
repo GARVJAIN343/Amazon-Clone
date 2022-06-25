@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: rgb(200, 195, 195);
+}
+nav{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    height: 60px;
+    align-items: center;
+    top: 0;
+}
+
+.logo img{
+    height: 40px;
+    align-items: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.logoandicons img:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.btn img{
+    width: 26px;
+}
+
+.serch{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    height: 36px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serch input{
+    height: 36px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 16px;
+    border: 0;
+}
+
+.btn{
+    border: 0;
+    cursor: pointer;
+    background: rgba(255, 166, 0, 0.768);
+    padding: 6px 10px;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#profile img{
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+#cart img{
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+.icons{
+    margin: 10px;
+}
+
+.icons:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.subnav{
+    display: flex;
+    background-color: #232f3e;
+    padding: 9px;
+    margin-bottom: auto;
+}
+
+.subnav a{
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    font-family: 'Amazon Ember','sans-serif';
+    font-size: 14px;
+    width: 8%;
+}
+
+.subnav a:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.items1,
+.items2,
+.items3,
+.items4{
+    box-sizing: border-box;
+    border: 0px soild rgb(255,252,252);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.items1 img{
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+}
+
+#phone1{
+    width: 22%;
+}
+#phone2{
+    width: 22%;
+}
+#phone3{
+    width: 22%;
+}
+#phone4{
+    width: 22%;
+}
+
+.items1 .buttons,
+.items2 .buttons,
+.items3 .buttons,
+.items4 .buttons{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    height: 50px;
+    font-size: 25px;
+    background-color: #cbc9e1;
+}
+
+.items2 img{
+    margin: 10px;
+    padding: 10px;
+    width: 21.5%;
+}
+
+#lap1{
+    width: 22%;
+}
+#lap2{
+    width: 22%;
+}
+#lap3{
+    width: 22%;
+}
+#lap4{
+    width: 22%;
+}
+
+.items3 img{
+    margin: 10px;
+    padding: 10px;
+    width: 21%;
+}
+
+#app1{
+    width: 22%;
+    height: 300px;
+}
+#app2{
+    width: 22%;
+    height: 500px;
+}
+#app3{
+    width: 22%;
+    height: 500px;
+}
+#app4{
+    width: 22%;
+    height: 300px;
+}
+
+#head1,
+#head2,
+#head3,
+#head4{
+    width: 15%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head1{
+    width: 20%;
+    /* height: 100px; */
+}
+#head2{
+    width: 20%;
+    /* height: 100px; */
+}
+#head3{
+    width: 20%;
+    /* height: 100px; */
+}
+#head4{
+    width: 20%;
+    /* height: 100px; */
+}
