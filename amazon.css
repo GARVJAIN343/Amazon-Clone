@@ -197,17 +197,73 @@ nav{
 
 #head1{
     width: 20%;
-    /* height: 100px; */
 }
 #head2{
     width: 20%;
-    /* height: 100px; */
 }
 #head3{
     width: 20%;
-    /* height: 100px; */
 }
 #head4{
     width: 20%;
-    /* height: 100px; */
+}
+.bar{
+text-align: center;
+padding: 5px;
+}
+
+.bar button{
+    width: 17%;
+    border: 1px solid rgbs(255,166,0,0.898);
+    cursor: pointer;
+    font-size: 25px;
+    background-color: rgba(255,166,0,0.809);
+    border-radius: 4px;
+    font-family: 'Amazon Ember', 'sabs-serif';
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+}
+
+.bar a{
+    text-decoration: none;
+    color: rgb(11, 121, 181);
+}
+
+.backtotop{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    color: #ffffff;
+    height: 50px;
+    font-size: 15px;
+    background-color: #2f4055;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+.backtotop:hover{
+    background-color: #2f4055d9;
+}
+
+.subfooter{
+    background-color: #222e3d;
+    text-align: center;
+    padding: 30px;
+}
+
+.subfooter img{
+    width: 8%;
+    padding-top: 10px;
+    padding-right: 200px;
+    cursor: pointer;
+}
+
+#language{
+    height: 20px;
+    width: 90px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #222e3d;
+    box-sizing: content-box;
 }
